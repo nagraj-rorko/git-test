@@ -17,4 +17,3 @@
 .port-card:hover { transform: perspective(900px) translateY(-8px) rotateX(var(--rx, 0deg)) rotateY(var(--ry, 0deg)); }
 .port-card:after { content: ''; position: absolute; inset: 0; pointer-events: none; background: linear-gradient(120deg, rgba(255,255,255,.18), transparent 30% 70%, rgba(232,175,99,.12)); opacity: .35; transform: translateZ(24px); }
 .staging-pill { margin-left: auto; margin-right: 3vw; color: var(--gold); font-size: 9px; letter-spacing: .16em; font-weight: 700; } .staging-pill i { display: inline-block; width: 7px; height: 7px; margin-right: 7px; border-radius: 50%; background: #6fe3a1; box-shadow: 0 0 12px #6fe3a1; }
-.rollback-banner { position: fixed; top: 0; left: 0; right: 0; z-index: 20; padding: 8px; color: #1d0b04; background: #ffb36b; text-align: center; font-size: 10px; font-weight: 700; letter-spacing: .16em; }
